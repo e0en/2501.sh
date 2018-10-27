@@ -7,6 +7,7 @@ body {
     padding: 1em 1em;
     max-width: 50em;
     line-height: 1.5;
+    background: white;
     color: #666;
 }
 
@@ -46,4 +47,19 @@ li {
 
 a.checker {
     color: #ccc;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background: black;
+        color: #ccc;
+    }
+
+    h1, h2, h3, .history .duration {
+        color: white;
+    }
+
+    a.checker {
+        color: #333;
+    }
 }
