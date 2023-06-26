@@ -40,7 +40,7 @@ footer {
 @media (prefers-color-scheme: dark) {
   body {
     background: black;
-    color: #ccc;
+    color: #eee;
   }
 
   a {
