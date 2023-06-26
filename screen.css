@@ -1,65 +1,49 @@
 html {
-    font-family: sans-serif;
+  font-family: monospace;
+  line-height: 1.5em;
+  font-size: 16px;
 }
 
 body {
-    margin: 0 auto;
-    padding: 1em 1em;
-    max-width: 50em;
-    line-height: 1.5;
-    background: white;
-    color: #666;
+  margin: 0;
+  padding: 0;
+  background: white;
+}
+
+h1,h2,h3 {
+  margin-top: 3rem;
 }
 
 a {
-    color: #85BB65;
+  color: blue;
 }
 
-h1, h2 {
-    margin-top: 1em;
-    padding-top: 1em;
+main {
+  max-width: 640px;
+  padding: 32px;
+  margin: 0 auto;
 }
 
-h1, h2, h3, .history .duration {
-    color: #333;
+footer {
+  text-align: center;
 }
 
-#last_name {
-    font-weight: normal;
+.contact_field {
+  display: inline-block;
+  width: 5em;
 }
 
-li {
-    margin-bottom: 0.5em;
-}
-
-.history .duration {
-    display: block;
-    font-weight: bold;
-}
-
-.history .duration::after {
-    content: ":";
-}
-
-.contact li {
-    list-style-type: none;
-}
-
-a.checker {
-    color: #ccc;
+.duration {
+  font-weight: bold;
 }
 
 @media (prefers-color-scheme: dark) {
-    body {
-        background: black;
-        color: #ccc;
-    }
+  body {
+    background: black;
+    color: #ccc;
+  }
 
-    h1, h2, h3, .history .duration {
-        color: white;
-    }
-
-    a.checker {
-        color: #333;
-    }
+  a {
+    color: lime;
+  }
 }
