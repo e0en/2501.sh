@@ -1,0 +1,43 @@
+<!doctype HTML>
+<html lang="ko">
+  <head>
+    <title>{{ post.title }} - {{ site.name }}</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:title" content="{{ post.title }}">
+    <meta property="og:description" content="{{ post.description }}">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ko_KR">
+    <meta property="og:site_name" content="{{ site.name }}">
+    <link rel="canonical" href="{{ post.url }}">
+    <meta property="og:url" content="{{ post.url }}">
+    <meta property="og:image" content="profile.png">
+
+    <link rel="icon" type="image/png" href="profile-16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="profile-32.png" sizes="32x32">
+    <link rel="stylesheet" href="screen.css">
+  </head>
+  <body>
+    <main>
+      <nav>
+        <a href="{{ site.base_url }}">'ㅅ'</a>
+      </nav>
+      <header>
+        <h1>{{ post.title }}</h1>
+      </header>
+      <section>
+      {{ post.content }}
+      </section>
+      <hr />
+      {% if post.backlinks %}
+      <ul>
+        {% for link in post.backlinks %}
+        <li><a href="{{link.url}}">{{link.title}}</a></li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+      <p>{{ post.created_at.strftime('%Y-%m-%d') }}</p>
+    </main>
+  </body>
+</html>
