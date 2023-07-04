@@ -32,7 +32,7 @@
         <h2>Recent posts</h2>
         <ul>
           {% for p in site.recent_posts %}
-          <li><a href="{{p.url}}">{{p.title}}</a> - {{ p.created_at.strftime('%Y-%m-%d') }}</li>
+          <li>{{ p.created_at.strftime('%Y-%m-%d') }} - <a href="{{p.url}}">{{p.title}}</a></li>
           {% endfor %}
         </ul>
       </section>
