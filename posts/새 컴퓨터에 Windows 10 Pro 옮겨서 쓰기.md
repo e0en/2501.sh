@@ -29,17 +29,17 @@ date: 2019-12-26T14:44:19+09:00
 - Windows 설정 -> 업데이트 및 보안 -> 정품 인증 을 찾아보았으나 어떤 관련 메뉴도 없다. 
 - 마이크로소프트 스토어의 구매 목록에서도 Windows 10 Pro를 찾을 수 없다.
 
-내 마이크로소프트 계정 웹 페이지의 [[기기 목록|https://account.microsoft.com/devices]]에 가면 기존 컴퓨터에 Windows 10 Pro 라이센스가 붙어 있는 것을 볼 수 있지만 이 라이센스를 이동할 수 있게 해 주는 메뉴는 없다.
+내 마이크로소프트 계정 웹 페이지의 [기기 목록](https://account.microsoft.com/devices)에 가면 기존 컴퓨터에 Windows 10 Pro 라이센스가 붙어 있는 것을 볼 수 있지만 이 라이센스를 이동할 수 있게 해 주는 메뉴는 없다.
 
 비교적 안전해 보이는 방법은 다 통하지 않으니 이제 다른 방법을 찾아야 한다.
 
 일단 이전 컴퓨터에서 Windows 10 Pro 라이센스 제거를 시도해 본다. 자칫했다가는 있는 라이센스도 날려먹을까봐 걱정은 되지만, 마이크로소프트 스토어에서 구입했고 구매 이력도 있으니 괜찮을 것 같다.
 
-많은 사람들이 추천하는 방법은 [[링크|https://www.groovypost.com/howto/transfer-windows-10-license-new-pc/]]의 내용처럼 명령 프롬프트를 관리자 모드로 실행 후 `slmgr /upk`를 실행해서 컴퓨터에 저장된 라이센스를 제거하는 것이다. 이렇게 하고 나서 `slmgr /dlv`를 실행하면 제품 키가 없다는 창이 뜬다. 뭔가 된 것 같다.
+많은 사람들이 추천하는 방법은 [링크](https://www.groovypost.com/howto/transfer-windows-10-license-new-pc/)의 내용처럼 명령 프롬프트를 관리자 모드로 실행 후 `slmgr /upk`를 실행해서 컴퓨터에 저장된 라이센스를 제거하는 것이다. 이렇게 하고 나서 `slmgr /dlv`를 실행하면 제품 키가 없다는 창이 뜬다. 뭔가 된 것 같다.
 
 하지만 이전 컴퓨터의 Windows 설정 -> 업데이트 및 보안 -> 정품 인증 메뉴로 가면 여전히 정품 인증이 되어 있다...
 
-레지스트리를 수정해서 Windows 버전 정보를 Pro에서 Home으로 다운그레이드 하라는 [[조언|https://answers.microsoft.com/en-us/windows/forum/windows_10-windows_install/downgrade-from-windows-10-pro-to-home/345f5464-cb7a-44b3-8856-237cbec072c8?auth=1]]도 있다. 해 봤지만 효과가 없다.
+레지스트리를 수정해서 Windows 버전 정보를 Pro에서 Home으로 다운그레이드 하라는 [조언](https://answers.microsoft.com/en-us/windows/forum/windows_10-windows_install/downgrade-from-windows-10-pro-to-home/345f5464-cb7a-44b3-8856-237cbec072c8?auth=1)도 있다. 해 봤지만 효과가 없다.
 
 이전 컴퓨터를 어떻게 하는 것은 포기한다.
 
@@ -54,8 +54,8 @@ date: 2019-12-26T14:44:19+09:00
 그 외에 다른 방법들을 더 찾아보니 다음과 같은 것들이 있다.
 
 - `slui 4`를 실행해서 ARS를 통해 정품 인증
-- [[정품 인증 문제 해결사|https://support.microsoft.com/ko-kr/help/20527/windows-10-activation-troubleshooter]]를 이용한 문제 해결
-- [[정품 인증 오류 코드에 대한 도움말|https://support.microsoft.com/ko-kr/help/10738]] 참조
+- [정품 인증 문제 해결사](https://support.microsoft.com/ko-kr/help/20527/windows-10-activation-troubleshooter)를 이용한 문제 해결
+- [정품 인증 오류 코드에 대한 도움말](https://support.microsoft.com/ko-kr/help/10738) 참조
 
 전부 시도했지만 오류 메시지만 바뀔 뿐 정품 인증은 되지 않았다.
 
