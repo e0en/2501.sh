@@ -5,20 +5,23 @@
 
 ## Career
 
-### Feb 2018 &ndash; Present
+### Feb 2018 &ndash; Aug 2024 (6 years and 6 months)
 
 CTO &amp; Co-founder of [SIGTERM Inc.](https://www.sigterm.io)
 
-- Developed high-frequency trading (HFT) system, operating on multiple major crypto markets.
+- Participated in development of high-frequency trading (HFT) system, operating on multiple major crypto markets.
 - Coordinated a team of 3~5 software engineers: established a code review and evaluation process.
 - Established guidelines and policies for code quality improvement (e.g. code review process, architecture reviews, automated linting and testing).
-- Developed low-latency order execution and management software for the HFT system.
-- Co-worked on programming language transition of the HFT system core.
-- Developed highly optimized crypto exchange clients for the HFT system.
+- Developed a preliminary version of a backtest framework trading strategy parameter optimization.
+- Developed a low-latency order execution and management software for the HFT system.
+- Co-worked on python-to-C++ transition of the HFT system core.
+- Developed a market maker for the HFT system in rust.
+- Developed loss-limiting mechanism for taker-side orders.
+- Developed highly optimized crypto exchange clients for the HFT system in python, C++, and rust.
+- Significantly reduced latency of order requests over HTTPS.
 - Improved speed and stability of orderbook retrieval and parsing component.
 
-
-### Feb 2016 &ndash; Feb 2018
+### Feb 2016 &ndash; Feb 2018 (2 years)
 
 Lead Data Scientist, [WATCHA Inc.](https://watcha.team)
 
@@ -28,7 +31,7 @@ Lead Data Scientist, [WATCHA Inc.](https://watcha.team)
 - Developed recommendation algorithms for home/search/category page of WATCHA.
 - Coordinated a research team of 3 &ndash; 5 people.
 
-### Mar 2014 &ndash; Feb 2016
+### Mar 2014 &ndash; Feb 2016 (2 years)
 
 Data Scientist, [WATCHA Inc.](https://watcha.team)
 
@@ -38,7 +41,7 @@ Data Scientist, [WATCHA Inc.](https://watcha.team)
 - Modeled relationships between user preferences on contents and other attributes for use in targeted advertisement.
 - Contributed porting python-based recommendation system to Scala.
 
-### Feb 2008 &ndash; Feb 2014
+### Feb 2008 &ndash; Feb 2014 (6 years)
 
 Ph. D. student of [Machine Learning Group @ POSTECH](http://mlg.postech.ac.kr)
 
@@ -61,13 +64,13 @@ Gyeonggi Science High School
 
 ## Academic Publications
 
-- *Yoonseop Kang*, Taewoong Jang, Seungjin Choi, <a class="paper_title" href="#">Learning features with Structure-adapting multi-view exponential family harmoniums</a>, <abbr title="International Joint Conference on Neural Networks">IJCNN</abbr>, July 6 &ndash; 11, 2014.
-- *Yoonseop Kang*, Saehoon Kim, Seungjin Choi, <a class="paper_title" href="#">Deep Learning to Hash with Multiple Representations</a>, <abbr title="the IEEE International Conference on Data Mining">ICDM</abbr>, Dec 10 &ndash; 13, 2012.
-- Saehoon Kim, *Yoonseop Kang*, Seungjin Choi, <a class="paper_title" href="#">Sequential Spectral Learning to Hash with Multiple Representations</a>, <abbr title="the European Conference on Computer Vision">ECCV</abbr>, Oct 7 &ndash; 13, 2012.
-- *Yoonseop Kang*, Seungjin Choi, <a class="paper_title" href="#">Restricted Deep Belief Networks for Multi-View Learning</a>, <abbr title="the European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases">ECML-PKDD</abbr>, Sep 5 &ndash; 9, 2011.
-- Heeyoul Choi, Seungjin Choi, Anup Katake, *Yoonseop Kang* and Yoonsuck Choe, <a class="paper_title" href="#">Manifold Alpha-Integration</a>, <abbr title="Pacific Rim International Conference on Artificial Intelligence">PRICAI</abbr>, Aug 20 &ndash; September 2, 2010.
-- *Yoonseop Kang* and Seungjin Choi, <a class="paper_title" href="#">Common neighborhood sub-graph density as a similarity measure for community detection</a>, <abbr title="the International Conference on Neural Information Processing">ICONIP</abbr>, Dec 1 &ndash; 5, 2009.
-- Heeyoul Choi, Anup Katake, Seungjin Choi, *Yoonseop Kang*, and Yoonsuck Choe, <a class="paper_title" href="#">Probabilistic combination of multiple evidence</a>, <abbr title="the International Conference on Neural Information Processing">ICONIP</abbr>, Dec 1 &ndash; 5, 2009.
+- _Yoonseop Kang_, Taewoong Jang, Seungjin Choi, <a class="paper_title" href="#">Learning features with Structure-adapting multi-view exponential family harmoniums</a>, <abbr title="International Joint Conference on Neural Networks">IJCNN</abbr>, July 6 &ndash; 11, 2014.
+- _Yoonseop Kang_, Saehoon Kim, Seungjin Choi, <a class="paper_title" href="#">Deep Learning to Hash with Multiple Representations</a>, <abbr title="the IEEE International Conference on Data Mining">ICDM</abbr>, Dec 10 &ndash; 13, 2012.
+- Saehoon Kim, _Yoonseop Kang_, Seungjin Choi, <a class="paper_title" href="#">Sequential Spectral Learning to Hash with Multiple Representations</a>, <abbr title="the European Conference on Computer Vision">ECCV</abbr>, Oct 7 &ndash; 13, 2012.
+- _Yoonseop Kang_, Seungjin Choi, <a class="paper_title" href="#">Restricted Deep Belief Networks for Multi-View Learning</a>, <abbr title="the European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases">ECML-PKDD</abbr>, Sep 5 &ndash; 9, 2011.
+- Heeyoul Choi, Seungjin Choi, Anup Katake, _Yoonseop Kang_ and Yoonsuck Choe, <a class="paper_title" href="#">Manifold Alpha-Integration</a>, <abbr title="Pacific Rim International Conference on Artificial Intelligence">PRICAI</abbr>, Aug 20 &ndash; September 2, 2010.
+- _Yoonseop Kang_ and Seungjin Choi, <a class="paper_title" href="#">Common neighborhood sub-graph density as a similarity measure for community detection</a>, <abbr title="the International Conference on Neural Information Processing">ICONIP</abbr>, Dec 1 &ndash; 5, 2009.
+- Heeyoul Choi, Anup Katake, Seungjin Choi, _Yoonseop Kang_, and Yoonsuck Choe, <a class="paper_title" href="#">Probabilistic combination of multiple evidence</a>, <abbr title="the International Conference on Neural Information Processing">ICONIP</abbr>, Dec 1 &ndash; 5, 2009.
 
 ## Skills
 
