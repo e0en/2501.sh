@@ -5,6 +5,10 @@
 
 ## Career
 
+### Sep 2024 &ndash; Now
+
+[Albireo Studio](https://albireostudio.com)
+
 ### Feb 2018 &ndash; Aug 2024 (6 years and 6 months)
 
 CTO &amp; Co-founder of [SIGTERM Inc.](https://www.sigterm.io)
