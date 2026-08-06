@@ -1,7 +1,7 @@
 ## Personal Details
 
 - Email: yoonseop.kang@gmail.com
-- Website: https://2501.sh
+- Website: https://2501.dev
 
 ## Career
 
